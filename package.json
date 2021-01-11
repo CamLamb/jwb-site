@@ -1,0 +1,24 @@
+{
+  "name": "jwb-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/index.js > js/main.js",
+    "build_config": "node build_config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jafacakes2011/jwb-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jafacakes2011/jwb-site/issues"
+  },
+  "homepage": "https://github.com/jafacakes2011/jwb-site#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
