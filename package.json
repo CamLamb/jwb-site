@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify js/index.js > js/main.js",
+    "build": "browserify dist/js/index.js > dist/js/main.js",
     "build_config": "node build_config.js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jafacakes2011/jwb-site#readme",
   "dependencies": {
+    "browserify": "^17.0.0",
     "discord.js": "^12.5.1"
   }
 }

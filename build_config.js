@@ -15,7 +15,7 @@ client.on('ready', () => {
                     client.destroy()
                     config["ban_count"] = bans.size;
                     const json = JSON.stringify(config);
-                    fs.writeFile('js/config.json', json, err => {
+                    fs.writeFile('dist/js/config.json', json, err => {
                         if (err) {
                             console.log('Error writing file', err)
                         } else {
